@@ -16,7 +16,11 @@
         "MaxUsersPerTeam": 50,
         "EnableTeamCreation": true,
         "EnableUserCreation": true,
-        "RestrictCreationToDomains": ""
+        "RestrictCreationToDomains": "",
+        "RestrictTeamNames": false,
+        "EnableTeamListing": false,
+        "EnableCustomBrand": false,
+        "CustomBrandText": ""
     },
     "SqlSettings": {
         "DriverName": "postgres",
